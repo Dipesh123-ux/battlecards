@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>BattleCardsInPlay</title>
+</head>
+<body>
+       <audio id="gameaud" src="./4 Strings - Beneath The Stars (Original Mix).mp4" loop="true"></audio>
+       <div class="container-fluid two d-flex justify-content-center">
+           <div class="row">
+            <div id="heroc" class="count">
+                <p>HERO</p>
+                <p id="c1"  class="left">0</p>
+            </div>
+            <div id="villc" class="count">
+                <p>VILLIAN</p>
+                <p id= "c2" class="left" >0</p>
+            </div>
+           </div>
+           <p id="hero" class="text hero">Flash</p>
+          <div> 
+         <img id="img1" src="https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/265-flash-ii.jpg" alt="" class="img-fluid rounded">
+         </div>
+         <div class="row-md">
+         <div class="herotable">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Combat</th>
+                        <th>Durability</th>
+                        <th>Intelligence</th>
+                        <th>Power</th>
+                        <th>Speed</th>
+                        <th>Strength</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="hc">68</td>
+                        <td id="hd">70</td>
+                        <td id="hi">68</td>
+                        <td id="hp">86</td>
+                        <td id="hs">100</td>
+                        <td id="hst">71</td>
+                    </tr>
+                </tbody>
+            </table>
+         </div>
+         <div class="viltable">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Combat</th>
+                        <th>Durability</th>
+                        <th>Intelligence</th>
+                        <th>Power</th>
+                        <th>Speed</th>
+                        <th>Strength</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="vc">80</td>
+                        <td id="vd">71</td>
+                        <td id="vi">75</td>
+                        <td id="vp">90</td>
+                        <td id="vs">65</td>
+                        <td id="vst">77</td>
+                    </tr>
+                </tbody>
+            </table>
+         </div>
+        </div>
+         <div id="apidata" class="btn">compare</div>
+          <div> 
+         <img id="img2" src="https://cdn.rawgit.com/akabab/superhero-api/0.2.0/api/images/sm/218-destroyer.jpg" alt="" class="img-fluid rounded">
+         </div>
+         <p id="villian" class="text villian">Destroyer</p>
+         <div id="shown" class="name">
+         <h5 style="color:white" id="winh"></h5>
+         <h5 style="color:white" id="winv" ></h5>
+        </div>
+       </div>
+   <script src="./main.js"></script>
+   <script src="./script.js"></script>
+</body>
+</html>

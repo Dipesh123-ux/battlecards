@@ -1,0 +1,299 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:black;
+    opacity:1;
+}
+.container-fluid {
+ height:100vh;
+ width: 100%;
+ background-image: url(./joel-muniz-yRQ6EL25vxU-unsplash.jpg) ;
+ backdrop-filter: blur(1.5px);
+ background-repeat: no-repeat;
+ opacity:0.5;
+ background-size: cover;
+}
+
+.btn{
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height:40px;
+    width:120px;
+    background-image:linear-gradient(to right,rgb(255, 0, 0,0.8),rgba(0, 0, 0,0.7));
+    border:none;
+    box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.8);
+    color:silver;
+}
+.head
+{
+    position: absolute;
+    margin-top:-19vh;
+    margin-left:-25vh;
+    font-size:50px;
+    font-weight: bold;
+    background-image:url(./pawel-czerwinski-Tyg0rVhOTrE-unsplash.jpg);
+    background-size:cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing:5px;
+    z-index: 2;
+    text-shadow: 0 0 5px rgba(255,255, 255,1);
+}
+span{
+    background-image: url(./joel-muniz-yRQ6EL25vxU-unsplash.jpg);
+    background-size:cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn:hover
+{
+  color:white;
+
+}
+
+.btn:active
+{
+    transform:scale(0.95);
+}
+
+.top{
+    position:absolute;
+    top:35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#apidata{
+    position:absolute;
+    top:50%;
+}
+.container-fluid img{
+    margin-left:50px;
+    margin-right:50px;
+    margin-top: 30px;
+    box-shadow: 0 0 20px 5px rgba(255,255,255);
+ 
+}
+.two{
+    background-image:url(./erik-mclean-8SeJUmfahu0-unsplash.jpg);
+}
+
+
+.text{
+    position:relative;
+    margin-top:50vh;
+    font-size:20px;
+    font-weight: bold;
+    background-image:linear-gradient(to right,rgb(243, 239, 239),rgb(241, 241, 241));
+    background-size:cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing:5px;
+    z-index:   1;
+    text-shadow: 0 0 8px rgba(255,255, 255,1);
+    text-transform:uppercase;
+    
+
+}
+.text.hero{
+    position: relative;
+    left:10%;
+}
+.text.villian{
+    position: relative;
+    right:7%;
+}
+.herotable{
+    position : absolute;
+    top:60%;
+    left:5%;
+
+}
+.viltable{
+    position : absolute;
+    top:60%;
+    right:6%;
+
+}
+table {
+	width: 100px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+th,
+td {
+	padding: 8px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+    font-size: 10px;
+    text-shadow: 0 0 10px rgba(255,255,255,0.5) 
+}
+
+th {
+	text-align: left;
+}
+
+thead th{
+	
+		background-image: linear-gradient(red,black);
+	
+}
+
+	td {
+		position: relative;
+
+    }
+	
+		
+.count
+{
+  display:grid;
+  justify-content: center;
+  align-items: center;
+  margin:30px;
+  margin-top: 10%;
+  color:white;
+  font-weight:bold;
+  height:70px;
+  width:80px;
+  background-image:linear-gradient(red,black);
+  border-radius:10px;
+  text-shadow: 0 0 8px rgba(255,255, 255,1);
+}    
+
+#heroc{
+    position:absolute;
+    left:10%;
+
+}
+#villc
+{
+    position:absolute;
+    right: 15%;
+}
+.left
+{
+    position:relative;
+    left:30%;
+    top:-10px;
+    
+}
+
+.name
+{
+    display:none;
+    position:absolute;
+    height:150px;
+    width:250px;
+    background-image: linear-gradient(red,black);
+    top:67%;
+    border-radius: 5px;
+    box-shadow:0 0 10px rgba(255,255, 255,1);
+    color:white;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(255,255,255);
+}
+.show
+{
+    display:block;
+    transition: all 1s ease-in-out;
+}
+
+#winh
+{
+      position: relative;
+      top:38%;
+}
+#winv
+{
+    position:relative;
+    top:25%
+}
+
+#instructions{
+   margin-top:5%;
+   height:80vh;
+   width:60%;
+   background-image: linear-gradient(to top,red,black);
+   box-shadow:0 0 6px rgba(255,255,255,0.6);
+}
+.container
+{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-shadow: 0 0 10px rgba(255,255,255,0.5);
+}
+
+@media screen and (max-width:800px) {
+
+
+    .count{
+        height:40px;
+        width:50px;
+        font-size:10px;
+    }
+    #villc{
+        top:29%;
+        right:2%;
+    }
+    #heroc
+    {
+        top:29%;
+        left:3%;
+    }
+    .img-fluid{
+        padding:10px;
+
+    }
+    .btn{
+        display:block;
+        height:33px;
+        width:100px;
+        font-size: 12px;
+        margin-top:-90px;
+    
+    }
+    .text{
+        font-size: 15px;
+        
+      
+    }
+    .text.hero{
+        left:25%;
+    }
+    .text.villian{
+        position: relative;
+        right:15%;
+    }
+    .viltable{
+        top:72%;
+    }
+   .name{
+       height:80px;
+       width:150px;
+       top:83%;
+       font-size:13px;
+   }
+   .head{
+       font-size: 30px;
+       left:70%;
+   }
+  .btn{
+      display:flex;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+  }
+}
