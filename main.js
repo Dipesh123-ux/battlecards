@@ -34,7 +34,7 @@ function herodata()
 	"method": "GET",
 	"headers": {
 		"x-rapidapi-host": "superhero-search.p.rapidapi.com",
-		"x-rapidapi-key": "fcfe19d43bmshc0b4984c4cd1e74p192937jsnff729bd4b108"
+		"x-rapidapi-key": '7bba34e6d6msh9476194851b9140p11a01ajsn4939dd0a80fd'
 	}
 })
 .then(response => {
@@ -91,7 +91,7 @@ function vildata()
 	"method": "GET",
 	"headers": {
 		"x-rapidapi-host": "superhero-search.p.rapidapi.com",
-		"x-rapidapi-key": "fcfe19d43bmshc0b4984c4cd1e74p192937jsnff729bd4b108"
+		"x-rapidapi-key": '7bba34e6d6msh9476194851b9140p11a01ajsn4939dd0a80fd'
 	}
 })
 .then(response => {
